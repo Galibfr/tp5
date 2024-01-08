@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 1.4rem/1.5 arial, helvetica, sans-serif;
+	margin: 0;
+}
+
+/* *************** header**************** */
+header {
+	background: url(../img/dinosaure.jpg) no-repeat 50% -100px;
+
+	background-size: cover;
+
+	color: white;
+	position: relative;
+}
+.wrapper {
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 1px;
+}
+nav {
+	background-color: rgba(0, 0, 0, 0.5);
+	line-height: 5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+nav ul li a {
+	text-decoration: none;
+}
+.logo {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 150px;
+	margin-bottom: 80px;
+}
+header .bandeau {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+/* ************** main************* */
+
+main section {
+	padding-top: 5em;
+
+	margin: 0 auto;
+}
+section.present {
+	width: 70%;
+}
+.title {
+	text-align: center;
+}
+img.entree_parc {
+	width: 100%;
+}
+
+/* boite a outils */
+
+.text-center {
+	text-align: center;
+}
+.btn {
+	padding: 1rem 2rem;
+	border: none;
+	text-align: center;
+}
+.baton {
+	background-color: steelblue;
+	color: white;
+	height: 50px;
+	width: 100px;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+.col {
+	width: 50%;
+}
+iframe {
+	width: 100%;
+	display: block;
+}
+
+/* ***footer*** */
+footer {
+	background-color: black;
+	position: relative;
+	display: flex;
+	align-items: center;
+	min-height: 300px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	color: white;
+	padding-left: 20%;
+}
+.photo_footer {
+	float: right;
+	padding-left: 30%;
+}
+/* **responsive*** */
+
+@media screen and (max-width: 600px) {
+	ul.topnav li.right,
+	ul.topnav li {
+		float: none;
+	}
+}
